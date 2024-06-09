@@ -3,7 +3,7 @@ import numpy as np
 
 # https://www.researchgate.net/publication/357838493_A_Hybrid_Genetic_Algorithm_and_Sperm_Swarm_Optimization_HGASSO_for_Multimodal_Functions
 
-# Hybrid Genetic Algorithm and Sperm Swarm Optimization (HGASSO) 2022
+# Hybrid Genetic Algorithm and Sperm Swarm Optimization (HGASSO)
 class Hgasso(NsgaII):
     # Initializes Hybrid Genetic Algorithm and Sperm Swarm Optimization
     def __init__(self, configuration, numberOfCrossoverPoints=2, mutationSize=2, crossoverProbability=80,

@@ -1,0 +1,443 @@
+[
+    {
+        "prof": {
+            "id": 1,
+            "name": "Victor"
+        }
+    },
+    {
+        "prof": {
+            "id": 2,
+            "name": "Red"
+        }
+    },
+    {
+        "prof": {
+            "id": 3,
+            "name": "Philip"
+        }
+    },
+    {
+        "prof": {
+            "id": 4,
+            "name": "Marry"
+        }
+    },
+    {
+        "prof": {
+            "id": 5,
+            "name": "Don"
+        }
+    },
+    {
+        "prof": {
+            "id": 6,
+            "name": "Mark"
+        }
+    },
+    {
+        "prof": {
+            "id": 7,
+            "name": "Peter"
+        }
+    },
+    {
+        "prof": {
+            "id": 8,
+            "name": "John"
+        }
+    },
+    {
+        "prof": {
+            "id": 9,
+            "name": "Ben"
+        }
+    },
+    {
+        "prof": {
+            "id": 10,
+            "name": "Mike"
+        }
+    },
+    {
+        "prof": {
+            "id": 11,
+            "name": "Steve"
+        }
+    },
+    {
+        "prof": {
+            "id": 12,
+            "name": "Ann"
+        }
+    },
+    {
+        "prof": {
+            "id": 13,
+            "name": "Alex"
+        }
+    },
+    {
+        "prof": {
+            "id": 14,
+            "name": "Emily"
+        }
+    },
+    {
+        "prof": {
+            "id": 15,
+            "name": "Sophia"
+        }
+    },
+    {
+        "prof": {
+            "id": 16,
+            "name": "Liam"
+        }
+    },
+    {
+        "prof": {
+            "id": 17,
+            "name": "Olivia"
+        }
+    },
+    {
+        "prof": {
+            "id": 18,
+            "name": "William"
+        }
+    },
+    {
+        "prof": {
+            "id": 19,
+            "name": "Ava"
+        }
+    },
+    {
+        "prof": {
+            "id": 20,
+            "name": "Ethan"
+        }
+    },
+    {
+        "prof": {
+            "id": 21,
+            "name": "Isabella"
+        }
+    },
+    {
+        "course": {
+            "id": 1,
+            "name": "Introduction to Programming"
+        }
+    },
+    {
+        "course": {
+            "id": 2,
+            "name": "Introduction to Computer Architecture"
+        }
+    },
+    {
+        "course": {
+            "id": 3,
+            "name": "Business Applications"
+        }
+    },
+    {
+        "course": {
+            "id": 4,
+            "name": "English"
+        }
+    },
+    {
+        "course": {
+            "id": 5,
+            "name": "Discrete Mathematic I"
+        }
+    },
+    {
+        "course": {
+            "id": 6,
+            "name": "Linear Algebra"
+        }
+    },
+    {
+        "course": {
+            "id": 7,
+            "name": "Introduction to Information Technology I"
+        }
+    },
+    {
+        "course": {
+            "id": 8,
+            "name": "System Administration and Maintenance I"
+        }
+    },
+    {
+        "course": {
+            "id": 9,
+            "name": "Data Structures and Algorithms"
+        }
+    },
+    {
+        "course": {
+            "id": 10,
+            "name": "Web Development"
+        }
+    },
+    {
+        "course": {
+            "id": 11,
+            "name": "Database Management Systems"
+        }
+    },
+    {
+        "course": {
+            "id": 12,
+            "name": "Software Engineering"
+        }
+    },
+    {
+        "course": {
+            "id": 13,
+            "name": "Computer Networks"
+        }
+    },
+    {
+        "course": {
+            "id": 14,
+            "name": "Cybersecurity"
+        }
+    },
+    {
+        "course": {
+            "id": 15,
+            "name": "Artificial Intelligence"
+        }
+    },
+    {
+        "course": {
+            "id": 16,
+            "name": "Machine Learning"
+        }
+    },
+    {
+        "room": {
+            "name": "R3",
+            "lab": true,
+            "size": 24
+        }
+    },
+    {
+        "room": {
+            "name": "R7",
+            "lab": false,
+            "size": 60
+        }
+    },
+    {
+        "room": {
+            "name": "R12",
+            "lab": true,
+            "size": 30
+        }
+    },
+    {
+        "room": {
+            "name": "R15",
+            "lab": false,
+            "size": 40
+        }
+    },
+    {
+        "room": {
+            "name": "R20",
+            "lab": false,
+            "size": 50
+        }
+    },
+    {
+        "room": {
+            "name": "R25",
+            "lab": true,
+            "size": 35
+        }
+    },
+    {
+        "room": {
+            "name": "R30",
+            "lab": false,
+            "size": 45
+        }
+    },
+    {
+        "room": {
+            "name": "R35",
+            "lab": true,
+            "size": 40
+        }
+    },
+    {
+        "room": {
+            "name": "R40",
+            "lab": false,
+            "size": 50
+        }
+    },
+    {
+        "room": {
+            "name": "R45",
+            "lab": true,
+            "size": 30
+        }
+    },
+    {
+        "group": {
+            "id": 1,
+            "name": "1O1",
+            "size": 19
+        }
+    },
+    {
+        "group": {
+            "id": 2,
+            "name": "1O2",
+            "size": 19
+        }
+    },
+    {
+        "group": {
+            "id": 3,
+            "name": "1O3",
+            "size": 19
+        }
+    },
+    {
+        "group": {
+            "id": 4,
+            "name": "1S1",
+            "size": 19
+        }
+    },
+    {
+        "group": {
+            "id": 5,
+            "name": "2O1",
+            "size": 25
+        }
+    },
+    {
+        "group": {
+            "id": 6,
+            "name": "2O2",
+            "size": 25
+        }
+    },
+    {
+        "group": {
+            "id": 7,
+            "name": "2S1",
+            "size": 25
+        }
+    },
+    {
+        "group": {
+            "id": 8,
+            "name": "2S2",
+            "size": 25
+        }
+    },
+    {
+        "group": {
+            "id": 9,
+            "name": "2S3",
+            "size": 25
+        }
+    },
+    {
+        "group": {
+            "id": 10,
+            "name": "2O3",
+            "size": 25
+        }
+    },
+    {
+        "group": {
+            "id": 11,
+            "name": "2O4",
+            "size": 30
+        }
+    },
+    {
+        "group": {
+            "id": 12,
+            "name": "2S4",
+            "size": 30
+        }
+    },
+    {
+        "group": {
+            "id": 13,
+            "name": "3O1",
+            "size": 25
+        }
+    },
+    {
+        "group": {
+            "id": 14,
+            "name": "3S1",
+            "size": 25
+        }
+    },
+    {
+        "class": {
+            "professor": 7,
+            "course": 4,
+            "duration": 1,
+            "group": 8
+        }
+    },
+    {
+        "class": {
+            "professor": 13,
+            "course": 3,
+            "duration": 2,
+            "group": 5
+        }
+    },
+    {
+        "class": {
+            "professor": 15,
+            "course": 16,
+            "duration": 2,
+            "group": 2
+        }
+    },
+    {
+        "class": {
+            "professor": 15,
+            "course": 14,
+            "duration": 2,
+            "group": 10
+        }
+    },
+    {
+        "class": {
+            "professor": 18,
+            "course": 16,
+            "duration": 2,
+            "group": 5
+        }
+    },
+    {
+        "class": {
+            "professor": 5,
+            "course": 4,
+            "duration": 1,
+            "group": [
+                4,
+                1
+            ]
+        }
+    }
+]

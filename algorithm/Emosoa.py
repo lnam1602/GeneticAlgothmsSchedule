@@ -140,6 +140,7 @@ class Emosoa(NsgaII):
 
             currentGeneration += 1
             self._currentGeneration = currentGeneration
+        return currentGeneration
 
     def __str__(self):
         return "Evolutionary multi-objective seagull optimization algorithm for global optimization (EMoSOA)"

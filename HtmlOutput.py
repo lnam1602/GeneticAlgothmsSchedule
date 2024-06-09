@@ -2,7 +2,6 @@ from model.Constant import Constant
 from model.Reservation import Reservation
 from collections import defaultdict
 
-
 class HtmlOutput:
     ROOM_COLUMN_NUMBER = Constant.DAYS_NUM + 1
     ROOM_ROW_NUMBER = Constant.DAY_HOURS + 1

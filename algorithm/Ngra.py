@@ -1,7 +1,7 @@
 from .NsgaII import NsgaII
 from time import time
 import numpy as np
-from random import random
+import random
 
 # https://www.researchgate.net/publication/241105578_Non-dominated_ranked_genetic_algorithm_for_solving_multi-objective_optimization_problems_NRGA
 
@@ -28,7 +28,7 @@ class Ngra(NsgaII):
         totalFitness = (populationSize + 1) * populationSize / 2
         probSelection = [i / totalFitness for i in range(populationSize)]
         cumProb = self.__cumulative(probSelection)
-        selectIndices = [random() for i in range(populationSize)]
+        selectIndices = [random.random() for i in range(populationSize)]
         parent = 2 * [None]
         parentIndex = 0        
         offspring = []
@@ -123,6 +123,7 @@ class Ngra(NsgaII):
                 lastBestFit = best.fitness
 
             currentGeneration += 1
+        return currentGeneration
         
     def __str__(self):
         return "Non-dominated Ranking Genetic Algorithm (NRGA)"

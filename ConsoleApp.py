@@ -7,6 +7,11 @@ import time
 import traceback
 from model.Configuration import Configuration
 from algorithm.Amga2 import Amga2 
+from algorithm.Emosoa import Emosoa
+from algorithm.GeneticAlgorithm import GeneticAlgorithm
+from algorithm.Hgasso import Hgasso
+from algorithm.Ngra import Ngra
+from algorithm.NsgaII import NsgaII
 from HtmlOutput import HtmlOutput
 
 def main(file_name):
@@ -16,8 +21,8 @@ def main(file_name):
     target_file = str(pathlib.Path().absolute()) + file_name
     configuration.parseFile(target_file)
     
-    alg = Amga2(configuration)
-    alg.run()
+    alg = Ngra(configuration)
+    _ = alg.run()
     html_result = HtmlOutput.getResult(alg.result)
 
     temp_file_path = tempfile.gettempdir() + file_name.replace(".json", ".htm")

@@ -427,6 +427,7 @@ class Amga2:
             mutateOffspringPopulation()
             updateArchivePopulation()
             currentGeneration += 1
+        return currentGeneration
 
     def __str__(self):
         return "Archive-based Micro Genetic Algorithm (AMGA2)"
